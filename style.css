@@ -1,0 +1,18 @@
+h2{
+    font-size: 30px !important;
+}
+.btn-warning:hover{
+    background-color: lightskyblue;
+}
+.btn-info:hover{
+    background-color:darkorange;
+}
+canvas{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow: 1px 1px 40px rgb(2, 184, 220);}
+}
